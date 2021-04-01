@@ -94,7 +94,7 @@ void acc_server(NetworkInterface *net)
     TCPServer socket;
     TCPSocket* client;*/
     TCPSocket socket;
-    SocketAddress addr("192.168.0.145",65431);
+    SocketAddress addr("192.168.0.172",65431);
     nsapi_error_t response;
 
     int16_t pDataXYZ[3] = {0};
