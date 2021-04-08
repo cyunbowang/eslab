@@ -105,7 +105,7 @@ private:
     }
 
     void button_pressed(void) {
-        _event_queue.call(Callback<void(long long int)>(_button_service, &ButtonService::updateButtonState), 0xb06504016);
+        _event_queue.call(Callback<void(long long int)>(_button_service, &ButtonService::updateButtonState), 0xb06701214);
     }
 
     void button_released(void) {
